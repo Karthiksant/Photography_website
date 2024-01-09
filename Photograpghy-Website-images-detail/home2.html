@@ -1,0 +1,371 @@
+<Doctype html>
+    <html>
+        <head>
+            <!-- font awesome logo-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+      <title>@karthiksant</title>
+            <header>
+                <div id="header-main">
+                    <div class="header-box1">
+                        <div class="header-logo"></div>
+                    </div>
+    
+                    <div class="header-box2"></div>
+                    <div class="header-box3">
+                        <div class="header-box3-container1">
+                            <div class="box3-Menulist">
+                                <a class="box3-list1" href="Home.html">HOME</a>
+                                <a class="box3-list1" href="biographyMain.html">BIOGRAPHY</a>
+                                <a class="box3-list1" href="">VIDEOS</a>
+                                <a class="box3-list1" href="">STORE</a>
+                                <a class="box3-list1" href="">FAQS</a>
+                                <a class="box3-list1" href="">CONTACT</a>
+                            </div>
+                        </div>
+                            
+                        <div class="header-box3-container2">
+                            <a class="logo1" href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                            <a class="logo2" href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                            <a class="logo3" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                            <a class="logo4" href="https://www.snapchat.com"><i class="fa-solid fa-camera-retro"></i></a>
+                            <a class="logo5" href="https://www.instagram.com"><i class="fa-solid fa-share"></i></a>
+                        </div>
+                    
+                </div>
+            </header>
+            
+            <style>
+                *{
+                    margin: 5px;
+                    background-color: black;
+                }
+                #header-main{
+                    margin: 2px;
+                    margin-right: 10px;
+                    height: 220px;
+                    width: 95%;
+                    background-color:black;
+                     display: flex;
+                    align-items: center;
+                    position: fixed;
+                    border-bottom: 2px solid orange;
+                }
+                .header-box1{
+                    height:98%;
+                    width: 20%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .header-logo{
+                    height: 70%;
+                    width: 130px;
+                    background-image: url(./Mian-Images/PSX_20200629_153515-01.jpeg);
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+                }
+                .header-logo:hover{
+                    transition: 800ms;
+                    height:70%;
+                    width: 130px;
+                    background-image: url(./Mian-Images/PSX_20200629_153504-01-01.jpeg);
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+                }
+                .header-box2{
+                    height: 100%;
+                    width: 30%;
+                    background-color: black;   
+                }
+                .header-box3{
+                    height: 100%;
+                    width: 50%;
+                    background-color:black;
+                    /* position: absolute; */
+                }
+                .header-box3-container1{
+                    height: 40px;
+                    background-color: black;
+                    margin-top: 100px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                }
+                .header-box3-container2{
+                    margin-top: 10px;
+                    margin-left: 35%;
+                    height: 20px;
+                    width: 50%;
+                    background-color: black;
+                    display: flex;
+                    justify-content: space-evenly;
+                }
+                .header-box3-container1 a{
+                    color: orange;
+                    font-size: 1.2rem;
+                    text-decoration-line: none;
+                }
+                .header-box3-container1 a:hover{
+                    color: white;
+                    font-size: 25px;
+                    transition-duration: 550ms;
+                    background-color: rgb(0, 0, 0);
+                }
+                .header-box3-container2 a{
+                    color: rgb(250, 249, 246);
+                }
+                .header-box3-container2 a:hover{
+                    color: white;
+                    font-size: 25px;
+                    transition-duration: 550ms;
+                    background-color: rgb(0, 0, 0);
+                }
+                body{
+                    height: 2000px;
+                    background-color: black;
+                }
+                .body-main-box1{
+                    height: 270px;
+                    width: 100%;
+                    background-color:black;
+                }
+                .body-main-box2{
+                    height:410px;
+                    width: 100%;
+                    background-color:black;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .box2-container{
+                    height: 405px;
+                    width: 98%;
+                    background-color:black;
+                }
+                .box2-container-main-image{
+                    height: 400px;
+                    width: 98%;
+                    background-color:black;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                }
+                .main-image1{
+                    height: 380px;
+                    width: 650px;
+                    background-image: url(./Mian-Images/PicsArt_10-20-09.29.04.jpg);
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+                    background-color:grey;
+                    box-shadow: 4px 4px 5px black;
+                }
+                .main-image2{
+                    height: 380px;
+                    width: 320px;
+                    background-image: url(./Mian-Images/PSX_20200730_155929-01.jpeg);
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+                    background-color:grey;
+                    box-shadow: 4px 4px 5px black;
+                }
+                .body-main-box3{
+                    height:1700px;
+                    width: 100%;
+                    background-color:black;
+                    border-bottom: 2px solid orange;
+
+                }
+                .box3-container{
+                    height:1650px;
+                    width: 98%;
+                    background-color:black;
+                }
+                .box3-container-images{
+                    height:1600px;
+                    width: 98%;
+                    background-color:white;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+                }
+                .img{
+                    margin:30px;
+                }
+                .image1{
+                    height: auto;
+                    width: 20%;
+                    background-image: url(./Mian-Images/PSX_20200924_195820-01-01.jpeg);
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+                    background-color:grey;
+                    box-shadow: 4px 4px 5px black;
+                }
+                .image2{
+                    height: auto;
+                    width: 50%;
+                    background-image: url(./Mian-Images/IMG20190101172440_01-02-01-01-01.jpg);
+                    background-size:100% 100%;
+                    background-repeat: no-repeat;
+                    background-color:grey;
+                    box-shadow: 4px 4px 5px black;
+                }
+                .image3{
+                    height: auto;
+                    width: 20%;
+                    background-image: url(./Mian-Images/PSX_20230719_080558-01-01.jpeg);
+                    background-size:100% 100%;
+                    background-repeat: no-repeat;
+                    background-color:grey;
+                    box-shadow: 4px 4px 5px black;
+                }
+                .image4{
+                    height: auto;
+                    width: 42%;
+                    background-image: url(./Mian-Images/IMG20230718125019-01-01.jpeg);
+                    background-size:100% 100%;
+                    background-repeat: no-repeat;
+                    background-color:grey;
+                    box-shadow: 4px 4px 5px black;
+                }
+                .image5{
+                    height: auto;
+                    width: 65%;
+                    background-image: url(./Mian-Images/IMG20190101180345-01.jpeg);
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+                    background-color:grey;
+                    box-shadow: 4px 4px 5px black;
+                }
+                .image6{
+                    height: auto;
+                     width: 45%; 
+                    background-image: url(./Mian-Images/LRM_20220911_164558-01-01-01-01.jpeg);
+                    background-size:100% 100%;
+                    background-repeat: no-repeat;
+                    background-color:grey;
+                    box-shadow: 4px 4px 5px black;
+                }
+               
+                .image7{
+                    height: auto;
+                    width: 25%;
+                    background-image: url(./Mian-Images/LRM_20230719_174256-01-01.jpeg);
+                    background-size:100% 100%;
+                    background-repeat: no-repeat;
+                    background-color:grey;
+                    box-shadow: 4px 4px 5px black;
+                }
+                .footer-main{
+                    height:250px;
+                    width: 100%;
+                    background-color: black;
+                    display: flex;
+                    align-items: center;
+                }
+                .footer-container{
+                    height:245px;
+                    width: 100%;
+                    background-color: black;        
+                }
+                .footer-box1{
+                    height: 30px;
+                    width: 98%;
+                    background-color: black;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 12%;
+                }
+                .box1-logos{
+                    height: 40px;
+                    width:30%;
+                    background-color: black;
+                    display: flex;
+                    justify-content: space-evenly;
+                }
+                .box1-logos a{
+                    height: 20px;
+                    color: white;
+                    font-size: 1.2rem;
+                }
+                .box1-logos a:hover{
+                    color: white;
+                    transition-duration: 550ms;
+                    background-color: rgb(0, 0, 0);
+                    font-size:2rem;
+                }
+                .footer-box2{
+                    margin-top: 10px;
+                    height: 40px;
+                    width: 98%;
+                    background-color: black;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .box2-content{
+                    height: 30px;
+                    width: auto;
+                    background-color: black;
+                    color: orange;
+                    font-size: 1.2rem;
+                }
+                .box2-content p:hover{
+                    width: auto;
+                    background-color: black;
+                    color: orange;
+                    font-size: 1.5rem;
+                    transition-duration: 1000ms;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="body-main">
+                        <div class="body-main-box1"></div>
+                        <div class="body-main-box2">
+                                            <div class="box2-container">
+                                                <div class="box2-container-main-image">
+                                                            <div class="main-image1"></div>
+                                                            <div class="main-image2"></div>
+                                                </div>
+                                            </div>
+                        </div>
+                        <div class="body-main-box3">
+                                <div class="box3-container">
+                                                <div class="box3-container-images">
+                                                            <div class="image1 img"></div>
+                                                            <div class="image2  img"></div>
+                                                            <div class="image3  img"></div>
+                                                            <div class="image4  img"></div>
+                                                            <div class="image5  img"></div>
+                                                            <div class="image6  img"></div>
+                                                            <div class="image7  img"></div>
+                                            </div>
+                                </div>     
+                        </div>   
+                </div>
+                <footer>
+                        <div class="footer-main">
+                                    <div class="footer-container">
+                                        <div class="footer-box1">
+                                            <div class="box1-logos">
+                                                <a class="logo1" href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                                                <a class="logo2" href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                                                <a class="logo3" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                                                <a class="logo4" href="https://www.snapchat.com"><i class="fa-solid fa-camera-retro"></i></a>
+                                                <a class="logo5" href="https://www.instagram.com"><i class="fa-solid fa-share"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="footer-box2">
+                                            <div class="box2-content">
+                                                <p> KarthikSant Copyright © All rights reserved.</p>
+                                            </div>                      
+                                        </div>
+
+                                    </div>
+                        </div>
+
+                </footer>
+        </body>
+    </html>
+    
